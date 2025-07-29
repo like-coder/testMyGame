@@ -1,0 +1,29 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\unreal projects\\ue_5.3\\testmygame\\plugins\\foo\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\foo\\module.foo.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\unreal projects\\ue_5.3\\testmygame\\intermediate\\build\\win64\\x64\\testmygameeditor\\development\\engine\\sharedpch.engine.cpp20.h.pch",
+        "Includes": [
+            "d:\\unreal projects\\ue_5.3\\testmygame\\plugins\\foo\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\foo\\definitions.foo.h",
+            "d:\\unreal projects\\ue_5.3\\testmygame\\plugins\\foo\\intermediate\\build\\win64\\unrealeditor\\inc\\foo\\uht\\foo.init.gen.cpp",
+            "d:\\unreal projects\\ue_5.3\\testmygame\\plugins\\foo\\intermediate\\build\\win64\\unrealeditor\\inc\\foo\\uht\\lensdistortionapi.gen.cpp",
+            "d:\\unreal projects\\ue_5.3\\testmygame\\plugins\\foo\\source\\foo\\classes\\lensdistortionapi.h",
+            "d:\\unreal projects\\ue_5.3\\testmygame\\plugins\\foo\\intermediate\\build\\win64\\unrealeditor\\inc\\foo\\uht\\lensdistortionapi.generated.h",
+            "d:\\unreal projects\\ue_5.3\\testmygame\\plugins\\foo\\intermediate\\build\\win64\\unrealeditor\\inc\\foo\\uht\\lensdistortionblueprintlibrary.gen.cpp",
+            "d:\\unreal projects\\ue_5.3\\testmygame\\plugins\\foo\\source\\foo\\classes\\lensdistortionblueprintlibrary.h",
+            "d:\\unreal projects\\ue_5.3\\testmygame\\plugins\\foo\\intermediate\\build\\win64\\unrealeditor\\inc\\foo\\uht\\lensdistortionblueprintlibrary.generated.h",
+            "d:\\unreal projects\\ue_5.3\\testmygame\\plugins\\foo\\source\\foo\\private\\foo.cpp",
+            "d:\\unreal projects\\ue_5.3\\testmygame\\plugins\\foo\\source\\foo\\public\\foo.h",
+            "d:\\unreal projects\\ue_5.3\\testmygame\\plugins\\foo\\source\\foo\\private\\lensdistortionblueprintlibrary.cpp",
+            "d:\\unreal projects\\ue_5.3\\testmygame\\plugins\\foo\\source\\foo\\private\\lensdistortionrendering.cpp",
+            "d:\\ue_5.3\\engine\\source\\runtime\\engine\\classes\\engine\\texturerendertarget2d.h",
+            "d:\\ue_5.3\\engine\\source\\runtime\\engine\\classes\\engine\\texturerendertarget.h",
+            "d:\\ue_5.3\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\texturerendertarget.generated.h",
+            "d:\\ue_5.3\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\texturerendertarget2d.generated.h",
+            "d:\\ue_5.3\\engine\\source\\runtime\\rhi\\public\\datadrivenshaderplatforminfo.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

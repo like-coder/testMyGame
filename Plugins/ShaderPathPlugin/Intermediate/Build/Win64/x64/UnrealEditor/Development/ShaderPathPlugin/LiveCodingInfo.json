@@ -1,0 +1,11 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.ShaderPathPlugin.cpp.obj": [
+			"ShaderPathPlugin.init.gen.cpp.obj",
+			"ShaderPathPluginBPLibrary.gen.cpp.obj",
+			"ShaderPathPlugin.cpp.obj",
+			"ShaderPathPluginBPLibrary.cpp.obj"
+		]
+	}
+}

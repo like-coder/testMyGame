@@ -1,0 +1,292 @@
+
+float3 getMin(float3 A, float3 B)
+{
+    float3 a = A;
+    float3 b = B;
+    float3 u = min(a, b);
+    return u;
+}
+
+float3 getMax(float3 A, float3 B)
+{
+    float3 a = A;
+    float3 b = B;
+    float3 u = max(a, b);
+    return u;
+}
+
+float getAbs(float A)
+{
+    float b = abs(A);
+    return b;
+}
+
+float getFmod(float A, float B)
+{
+    float C = fmod(A, B);
+    return C;
+}
+
+float getRound(float A)
+{
+    float B = round(A);
+    return B;
+}
+
+float getPow(float A, float B)
+{
+    float C = pow(A, B);
+    return C;
+}
+
+float getSqrt(float A)
+{
+    float B = sqrt(A);
+    return B;
+}
+
+float getRsqrt(float A)
+{
+    float B = rsqrt(A);
+    return B;
+}
+
+float getCos(float A)
+{
+    return cos(A);
+
+}
+
+float getSin(float A)
+{
+    return sin(A);
+
+}
+
+float getTan(float A)
+{
+    return tan(A);
+
+}
+
+float getAtan(float A)
+{
+    return atan(A);
+
+}
+
+float getAtan2(float A, float B)
+{
+    return atan2(A, B);
+
+}
+
+float getSinh(float A)
+{
+    return sinh(A);
+
+}
+
+float getCosh(float A)
+{
+    return cosh(A);
+
+}
+
+float getTanh(float A)
+{
+    return tanh(A);
+
+}
+
+float getCeil(float A)
+{
+    return ceil(A);     //向上取整
+
+}
+
+float getFloor(float A)
+{
+    return floor(A);    //向下取整
+
+}
+
+float3 getSmoothstep(float3 A)
+{
+    return smoothstep(0.1, 0.2, A);
+
+}
+
+float getClamp(float A)
+{
+    return clamp(A, 0, 1);
+
+}
+
+float getSaturate(float A)
+{
+    return saturate(A);
+
+}
+
+float3 getStep(float3 A, float3 B)
+{
+    return step(A, B);
+
+}
+
+float3 getLerp(float3 A)
+{
+    return lerp(0, 1, A);
+
+}
+
+float getFrac(float A)
+{
+    return frac(A);         //返回小数部分
+
+}
+
+float getLength(float3 A)
+{
+    return length(A);
+
+}
+
+float4 getBlackWhiteCircle(float time, float2 uv)
+{
+    float rr = length(uv);
+    float r = (rr + time + atan2(uv.x, uv.y) * 0.2);
+    r = sin(r * 50);        //将该函数的变化速度增加80倍
+    r = smoothstep(-0.4, 0.4, r);
+    return float4(r,r,r,1);
+}
+
+float getDistance(float3 A, float3 B)
+{
+    return distance(A, B);
+
+}
+
+float3 getNormalize(float3 A)
+{
+    return normalize(A);
+
+}
+
+float3 getMul(float3 A, float3 B)
+{
+    return mul(A, B);
+
+}
+
+float3 getDot(float3 A, float3 B)
+{
+    return dot(A, B);
+
+}
+
+float4 getBall(float3 world, float3 object, float3 cameraV, float R, float4 color)
+{
+    float y = 0;
+    for (int i = 0; i < 999; i++)
+    {
+        float d = distance(world, object) - R;
+        if (d < 0)
+        {
+            return color;
+        }
+        else
+        {
+            world -= cameraV;
+
+        }
+    }
+    return y;
+}
+
+float3 getClip(float3 A)
+{
+    return clip(A);
+
+}
+
+float getSign(float A)
+{
+    return sign(A);
+
+}
+
+float3 getAll(float3 A)
+{
+    return all(A);
+
+}
+
+float3 getAny(float3 A)
+{
+    return any(A);
+
+}
+
+float4 getSpaceVariation()
+{
+    //return mul(float4(1,1,1,1), LWCToFloat(ResolvedView.ViewForward));
+    //return mul(float4(1, 1, 1, 1), LWCToFloat(ResolvedView.WorldToClip));
+    //return mul(float4(1, 1, 1, 1), LWCToFloat(ResolvedView.RelativeWorldToClip));
+    return mul(float4(1, 1, 1, 1), LWCToFloat(ResolvedView.ScreenToWorld));
+}
+
+float4 getTexture2DSample(float2 uv, Texture2D tex)
+{
+    SamplerState texSampler;
+    return Texture2DSample(tex, texSampler, uv);
+}
+
+float4 getTexture3DSample(float3 uv, Texture3D tex)
+{
+    SamplerState texSampler;
+    return Texture3DSample(tex, texSampler, uv);
+}
+
+float4 getTextureCubeSample(float3 uv, TextureCube tex)
+{
+    SamplerState texSampler;
+    return TextureCubeSample(tex, texSampler, uv);
+}
+
+float getTextMyGlobal()
+{
+    return ceshi(5.1, 6.2);
+
+}
+
+float getViewTime()
+{
+    float time = View.RealTime;
+    return time;
+}
+
+float UseViewTimeGetSin()
+{
+    //return sin(getViewTime());
+    return sin(View.Random);
+}
+
+float4 getSvPosition(FMaterialPixelParameters Parameters)
+{
+    return Parameters.SvPosition;
+
+}
+
+float3 getAbsoluteWorldPosition(FMaterialPixelParameters Parameters)
+{
+    return LWCToFloat(Parameters.AbsoluteWorldPosition);
+
+}
+
+float3 getSceneTextureLookup(FMaterialPixelParameters Parameters)
+{
+    return SceneTextureLookup(GetDefaultSceneTextureUV(Parameters, 1), PPI_WorldNormal, false);
+
+}

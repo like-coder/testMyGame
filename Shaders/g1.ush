@@ -1,0 +1,4 @@
+float xx(float a)
+{
+    return a * 10.0;
+}

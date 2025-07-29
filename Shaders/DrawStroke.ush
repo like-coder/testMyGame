@@ -1,0 +1,90 @@
+
+float4 DrawStroke_UseDepth(FMaterialPixelParameters Parameters, float Thickness, float4 StrokeColor, float DepthThreshold)
+{
+    float2 UVs = GetSceneTextureUV(Parameters);
+    float2 TextureSize = GetSceneTextureViewSize(PPI_CustomDepth).xy;
+    float DepthCenter = SceneTextureLookup(UVs, PPI_CustomDepth, false).r;
+    float RealThickness = Thickness / (SceneTextureLookup(UVs, PPI_CustomDepth, false).r / 10000.0);
+    for (int y = -1; y <= 1; y++)
+    {
+        for (int x = -1; x <= 1; x++)
+        {
+            if (x == 0 && y == 0)
+            {
+                continue;
+            }
+			
+            float2 Offset = float2(x, y) * RealThickness * (1.0 / TextureSize); //偏移量
+            float DepthSample = SceneTextureLookup(UVs + Offset, PPI_CustomDepth, false).r;
+            float DepthDiff = abs(DepthCenter - DepthSample);
+            if (DepthDiff > DepthThreshold)
+            {
+                return StrokeColor; //边缘颜色
+            }
+        }
+    }
+
+    //如果当前像素不在边缘，就返回原色
+    return SceneTextureLookup(UVs, PPI_PostProcessInput0, false);
+}
+
+float4 DrawStroke_UseNormal(FMaterialPixelParameters Parameters, float Thickness, float4 StrokeColor, float NormalThreshold, float DepthThreshold, float OutlineDisappearDis)
+{
+    float2 UVs = GetSceneTextureUV(Parameters);
+    float2 TextureSize = GetSceneTextureViewSize(PPI_SceneDepth).xy;
+    float DepthCenter = SceneTextureLookup(UVs, PPI_SceneDepth, false).r;
+    float3 NormalCenter = SceneTextureLookup(UVs, PPI_WorldNormal, false).rgb;
+    float RealNormalThreshold = clamp(NormalThreshold * (SceneTextureLookup(UVs, PPI_SceneDepth, false).r / (OutlineDisappearDis * 100.0)), 0.5, NormalThreshold);
+
+    for (int y = -1; y <= 1; y++)
+    {
+        for (int x = -1; x <= 1; x++)
+        {
+            if (x == 0 && y == 0)
+            {
+                continue;
+            }
+			
+            float2 Offset = float2(x, y) * Thickness * (1.0 / TextureSize); //偏移量
+            float3 NormalSample = SceneTextureLookup(UVs + Offset, PPI_WorldNormal, false).rgb;
+            float NormalDiff = length(NormalCenter - NormalSample);
+            if (NormalDiff > RealNormalThreshold && DepthCenter < DepthThreshold * 100)
+            {
+                return StrokeColor; //边缘颜色
+            }
+        }
+    }
+
+    //如果当前像素不在边缘，就返回原色
+    return SceneTextureLookup(UVs, PPI_PostProcessInput0, false);
+}
+
+float4 DrawStroke_UseSceneDepth(FMaterialPixelParameters Parameters, float Thickness, float4 StrokeColor, float DepthThreshold)
+{
+    float2 UVs = GetSceneTextureUV(Parameters);
+    float2 TextureSize = GetSceneTextureViewSize(PPI_SceneDepth).xy;
+    float SceneDepthCenter = SceneTextureLookup(UVs, PPI_SceneDepth, false).r;
+    float RealThickness = Thickness / (SceneDepthCenter / 10000.0);
+
+    for (int y = -1; y <= 1; y++)
+    {
+        for (int x = -1; x <= 1; x++)
+        {
+            if (x == 0 && y == 0)
+            {
+                continue;
+            }
+			
+            float2 Offset = float2(x, y) * RealThickness * (1.0 / TextureSize); //偏移量
+            float SceneDepthSample = SceneTextureLookup(UVs + Offset, PPI_SceneDepth, false).r;
+            float SceneDepthDiff = abs(SceneDepthCenter - SceneDepthSample);
+            if (SceneDepthDiff > DepthThreshold)
+            {
+                return StrokeColor; //边缘颜色
+            }
+        }
+    }
+
+    //如果当前像素不在边缘，就返回原色
+    return SceneTextureLookup(UVs, PPI_PostProcessInput0, false);
+}

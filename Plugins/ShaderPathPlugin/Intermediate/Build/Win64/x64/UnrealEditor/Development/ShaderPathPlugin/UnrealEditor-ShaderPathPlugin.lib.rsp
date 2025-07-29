@@ -1,0 +1,12 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-ShaderPathPlugin.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"D:\Unreal Projects\UE_5.3\testMyGame\Intermediate\Build\Win64\x64\testMyGameEditor\Development\Engine\SharedPCH.Engine.Cpp20.h.obj"
+"D:\Unreal Projects\UE_5.3\testMyGame\Plugins\ShaderPathPlugin\Intermediate\Build\Win64\x64\UnrealEditor\Development\ShaderPathPlugin\Module.ShaderPathPlugin.cpp.obj"
+"D:\Unreal Projects\UE_5.3\testMyGame\Plugins\ShaderPathPlugin\Intermediate\Build\Win64\x64\UnrealEditor\Development\ShaderPathPlugin\Default.rc2.res"
+/OUT:"D:\Unreal Projects\UE_5.3\testMyGame\Plugins\ShaderPathPlugin\Intermediate\Build\Win64\x64\UnrealEditor\Development\ShaderPathPlugin\UnrealEditor-ShaderPathPlugin.lib"

@@ -1,0 +1,20 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\unreal projects\\ue_5.3\\testmygame\\plugins\\shaderpathplugin\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\shaderpathplugin\\module.shaderpathplugin.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\unreal projects\\ue_5.3\\testmygame\\intermediate\\build\\win64\\x64\\testmygameeditor\\development\\engine\\sharedpch.engine.cpp20.h.pch",
+        "Includes": [
+            "d:\\unreal projects\\ue_5.3\\testmygame\\plugins\\shaderpathplugin\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\shaderpathplugin\\definitions.shaderpathplugin.h",
+            "d:\\unreal projects\\ue_5.3\\testmygame\\plugins\\shaderpathplugin\\intermediate\\build\\win64\\unrealeditor\\inc\\shaderpathplugin\\uht\\shaderpathplugin.init.gen.cpp",
+            "d:\\unreal projects\\ue_5.3\\testmygame\\plugins\\shaderpathplugin\\intermediate\\build\\win64\\unrealeditor\\inc\\shaderpathplugin\\uht\\shaderpathpluginbplibrary.gen.cpp",
+            "d:\\unreal projects\\ue_5.3\\testmygame\\plugins\\shaderpathplugin\\source\\shaderpathplugin\\public\\shaderpathpluginbplibrary.h",
+            "d:\\unreal projects\\ue_5.3\\testmygame\\plugins\\shaderpathplugin\\intermediate\\build\\win64\\unrealeditor\\inc\\shaderpathplugin\\uht\\shaderpathpluginbplibrary.generated.h",
+            "d:\\unreal projects\\ue_5.3\\testmygame\\plugins\\shaderpathplugin\\source\\shaderpathplugin\\private\\shaderpathplugin.cpp",
+            "d:\\unreal projects\\ue_5.3\\testmygame\\plugins\\shaderpathplugin\\source\\shaderpathplugin\\public\\shaderpathplugin.h",
+            "d:\\unreal projects\\ue_5.3\\testmygame\\plugins\\shaderpathplugin\\source\\shaderpathplugin\\private\\shaderpathpluginbplibrary.cpp"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
