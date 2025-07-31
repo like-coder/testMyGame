@@ -14,7 +14,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define FOO_LensDistortionAPI_generated_h
 
-#define FID_Unreal_Projects_UE_5_3_testMyGame_Plugins_Foo_Source_Foo_Classes_LensDistortionAPI_h_20_GENERATED_BODY \
+#define FID_testMyGame_Plugins_Foo_Source_Foo_Classes_LensDistortionAPI_h_20_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FFooCameraModel_Statics; \
 	static class UScriptStruct* StaticStruct();
 
@@ -22,7 +22,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 template<> FOO_API UScriptStruct* StaticStruct<struct FFooCameraModel>();
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_Unreal_Projects_UE_5_3_testMyGame_Plugins_Foo_Source_Foo_Classes_LensDistortionAPI_h
+#define CURRENT_FILE_ID FID_testMyGame_Plugins_Foo_Source_Foo_Classes_LensDistortionAPI_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

@@ -1,11 +1,13 @@
-"D:\Unreal Projects\UE_5.3\testMyGame\Plugins\Foo\Intermediate\Build\Win64\x64\UnrealEditor\Development\Foo\Module.Foo.cpp"
-/FI"D:\Unreal Projects\UE_5.3\testMyGame\Intermediate\Build\Win64\x64\testMyGameEditor\Development\Engine\SharedPCH.Engine.Cpp20.h"
-/FI"D:\Unreal Projects\UE_5.3\testMyGame\Plugins\Foo\Intermediate\Build\Win64\x64\UnrealEditor\Development\Foo\Definitions.Foo.h"
-/Yu"D:\Unreal Projects\UE_5.3\testMyGame\Intermediate\Build\Win64\x64\testMyGameEditor\Development\Engine\SharedPCH.Engine.Cpp20.h"
-/Fp"D:\Unreal Projects\UE_5.3\testMyGame\Intermediate\Build\Win64\x64\testMyGameEditor\Development\Engine\SharedPCH.Engine.Cpp20.h.pch"
-/Fo"D:\Unreal Projects\UE_5.3\testMyGame\Plugins\Foo\Intermediate\Build\Win64\x64\UnrealEditor\Development\Foo\Module.Foo.cpp.obj"
-/sourceDependencies "D:\Unreal Projects\UE_5.3\testMyGame\Plugins\Foo\Intermediate\Build\Win64\x64\UnrealEditor\Development\Foo\Module.Foo.cpp.dep.json"
-@"D:\Unreal Projects\UE_5.3\testMyGame\Plugins\Foo\Intermediate\Build\Win64\x64\UnrealEditor\Development\Foo\Foo.Shared.rsp"
+"H:\Unreal Projects\UE5.5\testMyGame\Plugins\Foo\Intermediate\Build\Win64\x64\UnrealEditor\Development\Foo\Module.Foo.cpp"
+/FI"H:\Unreal Projects\UE5.5\testMyGame\Intermediate\Build\Win64\x64\testMyGameEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.NoValFmtStr.ValApi.Cpp20.InclOrderUnreal5_3.h"
+/FI"H:\Unreal Projects\UE5.5\testMyGame\Plugins\Foo\Intermediate\Build\Win64\x64\UnrealEditor\Development\Foo\Definitions.Foo.h"
+/Yu"H:\Unreal Projects\UE5.5\testMyGame\Intermediate\Build\Win64\x64\testMyGameEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.NoValFmtStr.ValApi.Cpp20.InclOrderUnreal5_3.h"
+/Fp"H:\Unreal Projects\UE5.5\testMyGame\Intermediate\Build\Win64\x64\testMyGameEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.NoValFmtStr.ValApi.Cpp20.InclOrderUnreal5_3.h.pch"
+/Fo"H:\Unreal Projects\UE5.5\testMyGame\Plugins\Foo\Intermediate\Build\Win64\x64\UnrealEditor\Development\Foo\Module.Foo.cpp.obj"
+/experimental:log "H:\Unreal Projects\UE5.5\testMyGame\Plugins\Foo\Intermediate\Build\Win64\x64\UnrealEditor\Development\Foo\Module.Foo.cpp.sarif"
+/sourceDependencies "H:\Unreal Projects\UE5.5\testMyGame\Plugins\Foo\Intermediate\Build\Win64\x64\UnrealEditor\Development\Foo\Module.Foo.cpp.dep.json"
+@"H:\Unreal Projects\UE5.5\testMyGame\Plugins\Foo\Intermediate\Build\Win64\x64\UnrealEditor\Development\Foo\Foo.Shared.rsp"
+/d2ssa-cfg-question-
 /Zc:inline
 /nologo
 /Oi
@@ -25,6 +27,7 @@
 /D_WINDLL
 /D_DISABLE_EXTENDED_ALIGNED_STORAGE
 /Ob2
+/d2ExtendedWarningInfo
 /Ox
 /Ot
 /GF

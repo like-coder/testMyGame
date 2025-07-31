@@ -17,13 +17,13 @@ void EmptyLinkFunctionForGeneratedCodeShaderPathPlugin_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0x7457B01E,
-				0x0F8A627A,
+				0x1101AC9F,
+				0x4AE0539F,
 				METADATA_PARAMS(0, nullptr)
 			};
 			UECodeGen_Private::ConstructUPackage(Z_Registration_Info_UPackage__Script_ShaderPathPlugin.OuterSingleton, PackageParams);
 		}
 		return Z_Registration_Info_UPackage__Script_ShaderPathPlugin.OuterSingleton;
 	}
-	static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_ShaderPathPlugin(Z_Construct_UPackage__Script_ShaderPathPlugin, TEXT("/Script/ShaderPathPlugin"), Z_Registration_Info_UPackage__Script_ShaderPathPlugin, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0x7457B01E, 0x0F8A627A));
+	static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_ShaderPathPlugin(Z_Construct_UPackage__Script_ShaderPathPlugin, TEXT("/Script/ShaderPathPlugin"), Z_Registration_Info_UPackage__Script_ShaderPathPlugin, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0x1101AC9F, 0x4AE0539F));
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

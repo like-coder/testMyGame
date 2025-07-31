@@ -6,7 +6,11 @@
 /NAME:"UnrealEditor-Foo.dll"
 /IGNORE:4221
 /NODEFAULTLIB
-"D:\Unreal Projects\UE_5.3\testMyGame\Intermediate\Build\Win64\x64\testMyGameEditor\Development\Engine\SharedPCH.Engine.Cpp20.h.obj"
-"D:\Unreal Projects\UE_5.3\testMyGame\Plugins\Foo\Intermediate\Build\Win64\x64\UnrealEditor\Development\Foo\Module.Foo.cpp.obj"
-"D:\Unreal Projects\UE_5.3\testMyGame\Plugins\Foo\Intermediate\Build\Win64\x64\UnrealEditor\Development\Foo\Default.rc2.res"
-/OUT:"D:\Unreal Projects\UE_5.3\testMyGame\Plugins\Foo\Intermediate\Build\Win64\x64\UnrealEditor\Development\Foo\UnrealEditor-Foo.lib"
+"H:\Unreal Projects\UE5.5\testMyGame\Intermediate\Build\Win64\x64\testMyGameEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.NoValFmtStr.ValApi.Cpp20.InclOrderUnreal5_3.h.obj"
+"H:\Unreal Projects\UE5.5\testMyGame\Plugins\Foo\Intermediate\Build\Win64\x64\UnrealEditor\Development\Foo\Module.Foo.cpp.obj"
+"H:\Unreal Projects\UE5.5\testMyGame\Plugins\Foo\Intermediate\Build\Win64\x64\UnrealEditor\Development\Foo\PerModuleInline.gen.cpp.obj"
+"H:\Unreal Projects\UE5.5\testMyGame\Plugins\Foo\Intermediate\Build\Win64\x64\UnrealEditor\Development\Foo\Foo.init.gen.cpp.obj"
+"H:\Unreal Projects\UE5.5\testMyGame\Plugins\Foo\Intermediate\Build\Win64\x64\UnrealEditor\Development\Foo\LensDistortionAPI.gen.cpp.obj"
+"H:\Unreal Projects\UE5.5\testMyGame\Plugins\Foo\Intermediate\Build\Win64\x64\UnrealEditor\Development\Foo\LensDistortionBlueprintLibrary.gen.cpp.obj"
+"H:\Unreal Projects\UE5.5\testMyGame\Plugins\Foo\Intermediate\Build\Win64\x64\UnrealEditor\Development\Foo\Default.rc2.res"
+/OUT:"H:\Unreal Projects\UE5.5\testMyGame\Plugins\Foo\Intermediate\Build\Win64\x64\UnrealEditor\Development\Foo\UnrealEditor-Foo.lib"

@@ -24,7 +24,7 @@
 		},
 		{
 			"Name": "Foo",
-			"Enabled": true,
+			"Enabled": false,
 			"SupportedTargetPlatforms": [
 				"Win64",
 				"Mac",
@@ -32,6 +32,10 @@
 				"Android",
 				"IOS"
 			]
+		},
+		{
+			"Name": "GameplayAbilities",
+			"Enabled": true
 		}
 	]
 }

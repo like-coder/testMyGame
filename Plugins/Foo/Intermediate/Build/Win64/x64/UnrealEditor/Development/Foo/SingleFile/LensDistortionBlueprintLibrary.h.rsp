@@ -1,8 +1,15 @@
-"D:\Unreal Projects\UE_5.3\testMyGame\Plugins\Foo\Intermediate\Build\Win64\x64\UnrealEditor\Development\Foo\SingleFile\LensDistortionBlueprintLibrary.h"
-/FI"D:\Unreal Projects\UE_5.3\testMyGame\Plugins\Foo\Intermediate\Build\Win64\x64\UnrealEditor\Development\Foo\Definitions.Foo.h"
-/Fo"D:\Unreal Projects\UE_5.3\testMyGame\Plugins\Foo\Intermediate\Build\Win64\x64\UnrealEditor\Development\Foo\SingleFile\LensDistortionBlueprintLibrary.h.obj"
-/sourceDependencies "D:\Unreal Projects\UE_5.3\testMyGame\Plugins\Foo\Intermediate\Build\Win64\x64\UnrealEditor\Development\Foo\SingleFile\LensDistortionBlueprintLibrary.h.dep.json"
-@"D:\Unreal Projects\UE_5.3\testMyGame\Plugins\Foo\Intermediate\Build\Win64\x64\UnrealEditor\Development\Foo\Foo.Shared.rsp"
+"H:\Unreal Projects\UE5.5\testMyGame\Plugins\Foo\Intermediate\Build\Win64\x64\UnrealEditor\Development\Foo\SingleFile\LensDistortionBlueprintLibrary.h.cpp"
+/external:W0
+/external:I "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\INCLUDE"
+/external:I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt"
+/external:I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\shared"
+/external:I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\um"
+/external:I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\winrt"
+/FI"H:\Unreal Projects\UE5.5\testMyGame\Plugins\Foo\Intermediate\Build\Win64\x64\UnrealEditor\Development\Foo\Definitions.Foo.h"
+/Fo"H:\Unreal Projects\UE5.5\testMyGame\Plugins\Foo\Intermediate\Build\Win64\x64\UnrealEditor\Development\Foo\SingleFile\LensDistortionBlueprintLibrary.h.obj"
+/sourceDependencies "H:\Unreal Projects\UE5.5\testMyGame\Plugins\Foo\Intermediate\Build\Win64\x64\UnrealEditor\Development\Foo\SingleFile\LensDistortionBlueprintLibrary.h.dep.json"
+@"H:\Unreal Projects\UE5.5\testMyGame\Plugins\Foo\Intermediate\Build\Win64\x64\UnrealEditor\Development\Foo\Foo.Shared.rsp"
+/d2ssa-cfg-question-
 /Zc:inline
 /nologo
 /Oi
@@ -22,6 +29,7 @@
 /D_WINDLL
 /D_DISABLE_EXTENDED_ALIGNED_STORAGE
 /Ob2
+/d2ExtendedWarningInfo
 /Ox
 /Ot
 /GF
