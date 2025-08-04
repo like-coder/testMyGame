@@ -6,11 +6,13 @@
         "PCH": "h:\\unreal projects\\ue5.5\\testmygame\\intermediate\\build\\win64\\x64\\testmygameeditor\\development\\unrealed\\sharedpch.unrealed.project.novalfmtstr.valapi.cpp20.inclorderunreal5_3.h.pch",
         "Includes": [
             "h:\\unreal projects\\ue5.5\\testmygame\\plugins\\shaderpathplugin\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\shaderpathplugin\\definitions.shaderpathplugin.h",
+            "h:\\unreal projects\\ue5.5\\testmygame\\plugins\\shaderpathplugin\\intermediate\\build\\win64\\unrealeditor\\inc\\shaderpathplugin\\uht\\shaderpathplugin.init.gen.cpp",
+            "h:\\unreal projects\\ue5.5\\testmygame\\plugins\\shaderpathplugin\\intermediate\\build\\win64\\unrealeditor\\inc\\shaderpathplugin\\uht\\shaderpathpluginbplibrary.gen.cpp",
+            "h:\\unreal projects\\ue5.5\\testmygame\\plugins\\shaderpathplugin\\source\\shaderpathplugin\\public\\shaderpathpluginbplibrary.h",
+            "h:\\unreal projects\\ue5.5\\testmygame\\plugins\\shaderpathplugin\\intermediate\\build\\win64\\unrealeditor\\inc\\shaderpathplugin\\uht\\shaderpathpluginbplibrary.generated.h",
             "h:\\unreal projects\\ue5.5\\testmygame\\plugins\\shaderpathplugin\\source\\shaderpathplugin\\private\\shaderpathplugin.cpp",
             "h:\\unreal projects\\ue5.5\\testmygame\\plugins\\shaderpathplugin\\source\\shaderpathplugin\\public\\shaderpathplugin.h",
-            "h:\\unreal projects\\ue5.5\\testmygame\\plugins\\shaderpathplugin\\source\\shaderpathplugin\\private\\shaderpathpluginbplibrary.cpp",
-            "h:\\unreal projects\\ue5.5\\testmygame\\plugins\\shaderpathplugin\\source\\shaderpathplugin\\public\\shaderpathpluginbplibrary.h",
-            "h:\\unreal projects\\ue5.5\\testmygame\\plugins\\shaderpathplugin\\intermediate\\build\\win64\\unrealeditor\\inc\\shaderpathplugin\\uht\\shaderpathpluginbplibrary.generated.h"
+            "h:\\unreal projects\\ue5.5\\testmygame\\plugins\\shaderpathplugin\\source\\shaderpathplugin\\private\\shaderpathpluginbplibrary.cpp"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []
