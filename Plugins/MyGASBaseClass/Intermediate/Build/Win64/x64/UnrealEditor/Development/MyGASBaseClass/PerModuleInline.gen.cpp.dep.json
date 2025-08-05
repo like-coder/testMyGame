@@ -1,0 +1,14 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "h:\\unreal projects\\ue5.5\\testmygame\\plugins\\mygasbaseclass\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\mygasbaseclass\\permoduleinline.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "h:\\unreal projects\\ue5.5\\testmygame\\intermediate\\build\\win64\\x64\\testmygameeditor\\development\\unrealed\\sharedpch.unrealed.cpp20.h.pch",
+        "Includes": [
+            "h:\\unreal projects\\ue5.5\\testmygame\\plugins\\mygasbaseclass\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\mygasbaseclass\\definitions.mygasbaseclass.h",
+            "d:\\ue_5.5\\engine\\source\\runtime\\core\\public\\hal\\permoduleinline.inl"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
