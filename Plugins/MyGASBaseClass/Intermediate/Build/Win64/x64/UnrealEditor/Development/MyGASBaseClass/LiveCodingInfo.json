@@ -1,5 +1,14 @@
 {
 	"RemapUnityFiles": 
 	{
+		"Module.MyGASBaseClass.cpp.obj": [
+			"PerModuleInline.gen.cpp.obj",
+			"MyGASBaseClass.cpp.obj",
+			"GAS_BaseCharacter.gen.cpp.obj",
+			"GAS_CharacterBase.gen.cpp.obj",
+			"MyGASBaseClass.init.gen.cpp.obj",
+			"GAS_BaseCharacter.cpp.obj",
+			"GAS_CharacterBase.cpp.obj"
+		]
 	}
 }
